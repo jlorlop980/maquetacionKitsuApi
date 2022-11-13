@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/sass/login.sass" />
+    <title>Kitsu Api</title>
+</head>
+<body>
+    <header class="header-principal">
+        <img src="./assets/img/logo.svg" class="header-principal-logo">
+        <a href="./index.html" class="header-principal-titulo">KITSU API</a>
+        <nav class="header-principal-nav">
+            <ul>
+                <li><a class="header-principal-nav-a" href="./registro.html">usuario<img src="./assets/img/User.svg" alt="usuario" class="header-principal-nav-img"></a></li>
+                <li><a class="header-principal-nav-a" href="#">ajustes<img src="./assets/img/Settings.svg" alt="ajustes" class="header-principal-nav-img"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-principal">
+        <section class="main-principal-section">
+            <form action="./assets/js/index.js" class="main-principal-section-form">
+                
+                <label for="user" class="main-principal-section-form-label">Usuario</label>
+                <input type="text" id="user" class="main-principal-section-form-input">
+                <label for="pass" class="main-principal-section-form-label">Contraseña</label>
+                <input type="password" id="pass" class="main-principal-section-form-input">
+            </form>
+        </section>
+        
+        <a href="./listado.html" class="main-principal-section-a">Enviar</a>
+        <a href="./registro.html" >Crear una cuenta</a>
+    </main>
+
+    <footer class="footer-principal">
+        <ul class="footer-principal-redes">
+            <li><a href="https://kitsu.io/explore/anime"><img src="./assets/img/Twitter.svg" alt="Twitter" class="footer-principal-redes-img"></a></li>
+            <li><a href="https://kitsu.io/explore/anime"><img src="./assets/img/Facebook.svg" alt="Facebook" class="footer-principal-redes-img"></a></li>
+            <li><a href="https://kitsu.io/explore/anime"><img src="./assets/img/Instagram.svg" alt="Instagram" class="footer-principal-redes-img"></a></li>
+            <li><a href="https://kitsu.io/explore/anime"><img src="./assets/img/Reddit.svg" alt="Reddit" class="footer-principal-redes-img"></a></li>
+        </ul>
+        <p class="footer-principal-contacto">Contacto</p>
+    </footer>
+</body>
+</html>

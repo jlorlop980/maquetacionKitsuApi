@@ -1,0 +1,141 @@
+@import "https://fonts.googleapis.com/css?family=Quicksand&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+
+.header-principal {
+  height: 10vh;
+  background-color: #585f74;
+  flex-flow: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header-principal-titulo {
+  font-weight: regular;
+  color: #fff;
+  padding-top: 1.5vh;
+  padding-left: 6vw;
+  font-size: 3em;
+}
+
+.header-principal-logo {
+  max-width: 10vw;
+  max-height: 10vh;
+  padding-top: .5vh;
+  padding-bottom: .5vh;
+  padding-left: 2vw;
+}
+
+.header-principal-nav {
+  color: #fff;
+  padding-top: 3.5vh;
+  padding-right: 1.5vw;
+}
+
+.header-principal-nav-img {
+  padding-left: .5vw;
+}
+
+.header-principal-nav-a {
+  color: #fff;
+}
+
+ul {
+  gap: 1vw;
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-principal {
+  height: 80vh;
+  background-color: #bcd4de;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+  display: flex;
+}
+
+.main-principal-section {
+  width: 35vw;
+  height: 45vh;
+  background-color: #585f74;
+  border-radius: 20px;
+  gap: 15vh;
+}
+
+.main-principal-section-form {
+  color: #fff;
+  width: 35vw;
+  height: 45vh;
+  text-align: center;
+  flex-flow: column wrap;
+  align-content: center;
+  gap: 3vh;
+  display: flex;
+}
+
+.main-principal-section-form-input {
+  width: 40%;
+  color: #fff;
+  text-align: center;
+  background: #585f74;
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: 5px;
+  font-size: 1.3rem;
+}
+
+.main-principal-section-form-label {
+  padding-top: 2vh;
+  font-size: 2rem;
+}
+
+.main-principal-section-a {
+  text-align: center;
+  color: #7ccfb4;
+  height: 6vh;
+  width: 10vw;
+  background-color: #585f74;
+  border-radius: 11vh;
+  align-self: center;
+  padding-top: 1vh;
+  font-size: 1.5rem;
+}
+
+.footer-principal {
+  height: 10vh;
+  background-color: #585f74;
+  flex-flow: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer-principal-redes {
+  flex-flow: wrap;
+  gap: .5vw;
+  padding-top: 3vh;
+  padding-left: 2vw;
+  display: flex;
+}
+
+.footer-principal-redes-img {
+  max-width: 3vw;
+  max-height: 3vw;
+}
+
+.footer-principal-contacto {
+  color: #fff;
+  padding-top: 4vh;
+  padding-right: 2vw;
+}
+
+/*# sourceMappingURL=registro.2595a311.css.map */
