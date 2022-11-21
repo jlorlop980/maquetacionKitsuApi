@@ -1,0 +1,163 @@
+@import "https://fonts.googleapis.com/css?family=Quicksand&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+
+.header-principal {
+  height: 10vh;
+  background-color: #585f74;
+  flex-flow: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header-principal-titulo {
+  font-weight: regular;
+  color: #fff;
+  padding-top: 1.5vh;
+  padding-left: 6vw;
+  font-size: 3em;
+}
+
+.header-principal-logo {
+  max-width: 10vw;
+  max-height: 10vh;
+  padding-top: .5vh;
+  padding-bottom: .5vh;
+  padding-left: 2vw;
+}
+
+.header-principal-nav {
+  color: #fff;
+  padding-top: 3.5vh;
+  padding-right: 1.5vw;
+}
+
+.header-principal-nav-img {
+  padding-left: .5vw;
+}
+
+.header-principal-nav-a {
+  color: #fff;
+}
+
+ul {
+  gap: 1vw;
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-principal {
+  height: 80vh;
+  background-color: #bcd4de;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15vh;
+  display: flex;
+  position: relative;
+}
+
+.back-anchor {
+  text-align: center;
+  color: #fff;
+  height: 5vh;
+  width: 5vh;
+  background-color: #7ccfb4;
+  border-radius: 50%;
+  padding-top: .3vh;
+  font-size: 2rem;
+  position: absolute;
+  top: 2vh;
+  right: 5vw;
+}
+
+.main-separados-datos {
+  height: 60vh;
+  border-left: 1px solid #000;
+}
+
+.main-principal-section-datos {
+  height: 65vh;
+  width: 35vw;
+  background-color: #585f74;
+  border-radius: 20px;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 5vh;
+  padding-top: 5vh;
+  display: flex;
+}
+
+.main-principal-section-datos-titulos {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.titulo-romaji {
+  color: #fff;
+}
+
+.titulo-japo {
+  color: #7ccfb4;
+}
+
+.main-principal-section-datos-subdatos {
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  padding-left: 5vw;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.main-principal-section-datos-subdatos-titulos {
+  color: #7ccfb4;
+  flex-flow: column wrap;
+  gap: 5vh;
+  display: flex;
+}
+
+.main-principal-section-datos-subdatos-resultados {
+  color: #fff;
+  flex-flow: column wrap;
+  gap: 5vh;
+  display: flex;
+}
+
+.footer-principal {
+  height: 10vh;
+  background-color: #585f74;
+  flex-flow: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer-principal-redes {
+  flex-flow: wrap;
+  gap: .5vw;
+  padding-top: 3vh;
+  padding-left: 2vw;
+  display: flex;
+}
+
+.footer-principal-redes-img {
+  max-width: 3vw;
+  max-height: 3vw;
+}
+
+.footer-principal-contacto {
+  color: #fff;
+  padding-top: 4vh;
+  padding-right: 2vw;
+}
+
+/*# sourceMappingURL=producto.0ab71113.css.map */
