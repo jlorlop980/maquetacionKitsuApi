@@ -1,0 +1,141 @@
+@import "https://fonts.googleapis.com/css?family=Quicksand&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+
+.header-principal {
+  height: 10vh;
+  background-color: #585f74;
+  flex-flow: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header-principal-titulo {
+  font-weight: regular;
+  color: #fff;
+  padding-top: 1.5vh;
+  padding-left: 6vw;
+  font-size: 3em;
+}
+
+.header-principal-logo {
+  max-width: 10vw;
+  max-height: 10vh;
+  padding-top: .5vh;
+  padding-bottom: .5vh;
+  padding-left: 2vw;
+}
+
+.header-principal-nav {
+  color: #fff;
+  padding-top: 3.5vh;
+  padding-right: 1.5vw;
+}
+
+.header-principal-nav-img {
+  padding-left: .5vw;
+}
+
+.header-principal-nav-a {
+  color: #fff;
+}
+
+ul {
+  gap: 1vw;
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.main-principal {
+  height: 80vh;
+  background-color: #bcd4de;
+  flex-flow: column wrap;
+  display: flex;
+}
+
+.main-barrasup {
+  flex-flow: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.main-barrasup-titulo {
+  font-size: 2.5rem;
+}
+
+.main-contenidoprin {
+  flex-flow: column wrap;
+  margin-top: 1vh;
+  display: flex;
+}
+
+.main-contenidoprin-anime-container {
+  flex-flow: column wrap;
+  padding-left: 1vw;
+  display: flex;
+}
+
+.main-contenido-anime-container-titulo, .main-contenido-manga-container-titulo {
+  font-size: 2rem;
+}
+
+.main-contenidoprin-manga-container {
+  flex-flow: column wrap;
+  padding-left: 1vw;
+  display: flex;
+}
+
+.anime, .manga {
+  flex-flow: wrap;
+  gap: 1vw;
+  display: flex;
+}
+
+.elemento-anime, .elemento-manga {
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.footer-principal {
+  height: 10vh;
+  background-color: #585f74;
+  flex-flow: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer-principal-redes {
+  flex-flow: wrap;
+  gap: .5vw;
+  padding-top: 3vh;
+  padding-left: 2vw;
+  display: flex;
+}
+
+.footer-principal-redes-img {
+  max-width: 3vw;
+  max-height: 3vw;
+}
+
+.footer-principal-contacto {
+  color: #fff;
+  padding-top: 4vh;
+  padding-right: 2vw;
+}
+
+/*# sourceMappingURL=listado.3190586f.css.map */
