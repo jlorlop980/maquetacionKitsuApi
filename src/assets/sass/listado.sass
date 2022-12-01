@@ -56,30 +56,53 @@ hr
     margin-top: 2vh
     margin-bottom: 2vh
 
+
 .main-principal
     height: 80vh
+    max-width: 100vw
     display: flex
-    flex-flow: column wrap
+    flex-flow: column nowrap
     background-color: $secondary
+    background-image: url(./../img/bgList.png)
 
 
-.main-barrasup
+.main-header
     display: flex 
     flex-flow: row wrap
-    justify-content: center
+    justify-content: flex-end
+    padding-right: 3vw
 
 .main-barrasup-titulo
     font-size: 2.5rem
+    padding-right: 23vw 
+    padding-top: 2vh
+
+#busqueda
+    background-color: $primary
+    margin-top: 2vh
+    color: $green
+    text-align: center
+    height: 6vh
+    width: 20vw
+    border-radius: 6vh
+    font-size: 1.5em
+    border: 0px
+    box-shadow: none
+
+::placeholder
+    color: $green
 
 .main-contenidoprin
     display: flex
     flex-flow: column wrap
-    margin-top: 1vh
+    overflow: hidden
 
 .main-contenidoprin-anime-container
     display: flex
     flex-flow: column wrap
     padding-left: 1vw
+    overflow: scroll
+    max-width: 100vw
 
 .main-contenido-anime-container-titulo
     font-size: 2rem
@@ -91,15 +114,17 @@ hr
     display: flex
     flex-flow: column wrap
     padding-left: 1vw
+    overflow: scroll
+    max-width: 100vw
 
 .anime
     display: flex
-    flex-flow: row wrap
+    flex-flow: row nowrap
     gap: 1vw
 
 .manga 
     display: flex
-    flex-flow: row wrap
+    flex-flow: row nowrap
     gap: 1vw
 
 .elemento-anime
@@ -107,12 +132,14 @@ hr
     flex-flow: column wrap
     justify-content: center
     align-items: center
+    gap: 1vh
 
 .elemento-manga
     display: flex
     flex-flow: column wrap
     justify-content: center
     align-items: center
+    gap: 1vh
 
 .footer-principal
     height: 10vh

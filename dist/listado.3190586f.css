@@ -61,31 +61,55 @@ hr {
 
 .main-principal {
   height: 80vh;
+  max-width: 100vw;
   background-color: #bcd4de;
-  flex-flow: column wrap;
+  background-image: url("bgList.74089b6f.png");
+  flex-flow: column;
   display: flex;
 }
 
-.main-barrasup {
+.main-header {
   flex-flow: wrap;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-right: 3vw;
   display: flex;
 }
 
 .main-barrasup-titulo {
+  padding-top: 2vh;
+  padding-right: 23vw;
   font-size: 2.5rem;
+}
+
+#busqueda {
+  color: #7ccfb4;
+  text-align: center;
+  height: 6vh;
+  width: 20vw;
+  box-shadow: none;
+  background-color: #585f74;
+  border: 0;
+  border-radius: 6vh;
+  margin-top: 2vh;
+  font-size: 1.5em;
+}
+
+::placeholder {
+  color: #7ccfb4;
 }
 
 .main-contenidoprin {
   flex-flow: column wrap;
-  margin-top: 1vh;
   display: flex;
+  overflow: hidden;
 }
 
 .main-contenidoprin-anime-container {
+  max-width: 100vw;
   flex-flow: column wrap;
   padding-left: 1vw;
   display: flex;
+  overflow: scroll;
 }
 
 .main-contenido-anime-container-titulo, .main-contenido-manga-container-titulo {
@@ -93,13 +117,15 @@ hr {
 }
 
 .main-contenidoprin-manga-container {
+  max-width: 100vw;
   flex-flow: column wrap;
   padding-left: 1vw;
   display: flex;
+  overflow: scroll;
 }
 
 .anime, .manga {
-  flex-flow: wrap;
+  flex-flow: row;
   gap: 1vw;
   display: flex;
 }
@@ -108,6 +134,7 @@ hr {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  gap: 1vh;
   display: flex;
 }
 
