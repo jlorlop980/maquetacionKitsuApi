@@ -55,28 +55,67 @@ a
 
 .main-principal
     height: 80vh
-    background-image: url(./../img/bgOpacity.png)
-    background-size: cover
     background-color: $secondary
-
-.main-principal-section
     display: flex
     flex-flow: column wrap
     gap: 5vh
-    padding-top: 10vh
-    padding-left: 15vw
-    padding-right: 15vw
-    
+    justify-content: center
+    align-items: center
 
-.main-principal-section-h1
-    font-size: 12vh
+.main-principal-section
+    display: flex
+    flex-flow: row
+    border-radius: 20px
+    background-color: $primary
+    width: 60vw
+    height: 50vh
+    justify-content: space-around
+    color: white
+    
+.main-principal-section-form
+    color: white
+    display: flex
+    flex-flow: column wrap
+    text-align: left
+    gap: 3vh
+    height: 40vh
+
+.main-principal-section-textarea
+    display: flex
+    flex-flow: column wrap
+    gap: 5vh
+    height: 40vh
+
+.main-principal-section-textarea-label
+    font-size: 1.3rem
+    padding-top: 2vh
     text-align: center
-    font-weight: normal
+
+.main-principal-section-form-input
+
+    border: 0
+    border-bottom: 1px solid #000000
+    outline: 5
+    font-size: 1.3rem
+    color: white
+    background: $primary
+    /*text-align: center*/
+
+.main-pricipal-section-form-mensaje
+    width: 25vw 
+    height: 30vh
+    border: 1px solid #000000
+    resize: none       
+
+.main-principal-section-form-label
+    font-size: 1.3rem
+    padding-top: 2vh
+
 
 .main-principal-section-a
    align-self: center
    text-align: center
-   
+   padding-top: 1vh
    color: $green
    background-color: $primary
    height: 6vh

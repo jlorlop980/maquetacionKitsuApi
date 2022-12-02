@@ -57,23 +57,65 @@ a {
 .main-principal {
   height: 80vh;
   background-color: #bcd4de;
-  background-image: url("bgOpacity.afaeaf0a.png");
-  background-size: cover;
-}
-
-.main-principal-section {
   flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
   gap: 5vh;
-  padding-top: 10vh;
-  padding-left: 15vw;
-  padding-right: 15vw;
   display: flex;
 }
 
-.main-principal-section-h1 {
+.main-principal-section {
+  width: 60vw;
+  height: 50vh;
+  color: #fff;
+  background-color: #585f74;
+  border-radius: 20px;
+  flex-flow: row;
+  justify-content: space-around;
+  display: flex;
+}
+
+.main-principal-section-form {
+  color: #fff;
+  text-align: left;
+  height: 40vh;
+  flex-flow: column wrap;
+  gap: 3vh;
+  display: flex;
+}
+
+.main-principal-section-textarea {
+  height: 40vh;
+  flex-flow: column wrap;
+  gap: 5vh;
+  display: flex;
+}
+
+.main-principal-section-textarea-label {
   text-align: center;
-  font-size: 12vh;
-  font-weight: normal;
+  padding-top: 2vh;
+  font-size: 1.3rem;
+}
+
+.main-principal-section-form-input {
+  color: #fff;
+  background: #585f74;
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: 5px;
+  font-size: 1.3rem;
+}
+
+.main-pricipal-section-form-mensaje {
+  width: 25vw;
+  height: 30vh;
+  resize: none;
+  border: 1px solid #000;
+}
+
+.main-principal-section-form-label {
+  padding-top: 2vh;
+  font-size: 1.3rem;
 }
 
 .main-principal-section-a {
@@ -84,6 +126,7 @@ a {
   background-color: #585f74;
   border-radius: 11vh;
   align-self: center;
+  padding-top: 1vh;
   font-size: 1.5rem;
 }
 
@@ -114,4 +157,4 @@ a {
   padding-right: 2vw;
 }
 
-/*# sourceMappingURL=index.24148726.css.map */
+/*# sourceMappingURL=contacto.ba547668.css.map */
