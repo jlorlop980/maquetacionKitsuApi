@@ -55,12 +55,12 @@ a
 
 .main-principal
     height: 80vh
-    background-color: $secondary
-    display: flex
-    flex-flow: row wrap
-    gap: 15vh
+    background-color: #bcd4de
+    flex-flow: nowrap
     justify-content: center
     align-items: center
+    gap: 10vh
+    display: flex
     position: relative
 
 .back-anchor
@@ -76,6 +76,12 @@ a
     background-color: $green
     border-radius: 50%
 
+
+.main-principal-section-img
+    width: 40vw
+    height: 70vh
+
+
 .main-separados-datos    
     border-left: 1px solid #000
     height: 60vh
@@ -83,15 +89,16 @@ a
 
 
 .main-principal-section-datos
-    display: flex
-    flex-flow: column wrap
-    background-color: $primary
+    height: auto
+    width: auto
+    background-color: #585f74
     border-radius: 20px
-    height: 65vh 
-    width: 35vw
+    flex-flow: column nowrap
     align-items: center
+    /* gap: 5vh; */
     padding-top: 5vh
-    gap: 5vh
+    padding-bottom: 5vh
+    display: flex
 
 .main-principal-section-datos-titulos
     font-size: 2rem
@@ -99,9 +106,12 @@ a
 
 .titulo-romaji
     color: white
+    font-size: 4vw
 
 .titulo-japo
     color: $green
+    font-size: 3.5vw
+    padding: 1vw
 
 .main-principal-section-datos-subdatos
     display: flex
@@ -113,18 +123,22 @@ a
     font-size: 1.5rem
 
 .main-principal-section-datos-subdatos-titulos
-    color: $green
-    display: flex
-    flex-flow: column wrap 
+    color: #7ccfb4
+    flex-flow: column nowrap
     gap: 5vh
-    
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 1.5vw
 
 .main-principal-section-datos-subdatos-resultados
-    color: white    
-    display: flex
-    flex-flow: column wrap 
+    color: #fff
+    flex-flow: column nowrap
     gap: 5vh
-
+    display: flex
+    align-items: center
+    font-size: 1.5vw
+    
 
 
 

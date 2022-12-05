@@ -57,10 +57,10 @@ a {
 .main-principal {
   height: 80vh;
   background-color: #bcd4de;
-  flex-flow: wrap;
+  flex-flow: row;
   justify-content: center;
   align-items: center;
-  gap: 15vh;
+  gap: 10vh;
   display: flex;
   position: relative;
 }
@@ -79,20 +79,25 @@ a {
   right: 5vw;
 }
 
+.main-principal-section-img {
+  width: 40vw;
+  height: 70vh;
+}
+
 .main-separados-datos {
   height: 60vh;
   border-left: 1px solid #000;
 }
 
 .main-principal-section-datos {
-  height: 65vh;
-  width: 35vw;
+  height: auto;
+  width: auto;
   background-color: #585f74;
   border-radius: 20px;
-  flex-flow: column wrap;
+  flex-flow: column;
   align-items: center;
-  gap: 5vh;
   padding-top: 5vh;
+  padding-bottom: 5vh;
   display: flex;
 }
 
@@ -103,10 +108,13 @@ a {
 
 .titulo-romaji {
   color: #fff;
+  font-size: 4vw;
 }
 
 .titulo-japo {
   color: #7ccfb4;
+  padding: 1vw;
+  font-size: 3.5vw;
 }
 
 .main-principal-section-datos-subdatos {
@@ -121,15 +129,20 @@ a {
 
 .main-principal-section-datos-subdatos-titulos {
   color: #7ccfb4;
-  flex-flow: column wrap;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
   gap: 5vh;
+  font-size: 1.5vw;
   display: flex;
 }
 
 .main-principal-section-datos-subdatos-resultados {
   color: #fff;
-  flex-flow: column wrap;
+  flex-flow: column;
+  align-items: center;
   gap: 5vh;
+  font-size: 1.5vw;
   display: flex;
 }
 

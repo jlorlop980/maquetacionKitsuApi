@@ -87,7 +87,7 @@ a {
 .main-principal-section-textarea {
   height: 40vh;
   flex-flow: column wrap;
-  gap: 5vh;
+  gap: 4vh;
   display: flex;
 }
 
