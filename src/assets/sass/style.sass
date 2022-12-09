@@ -9,6 +9,15 @@ $green: #7CCFB4
     padding:0
     box-sizing: border-box
 
+.header-mobile
+    display: none
+
+.main-mobile
+    display: none
+
+.footer-mobile
+    display: none
+
 .header-principal
     background-color:$primary
     display: flex
@@ -109,3 +118,78 @@ a
     color: white
     padding-right: 2vw
     padding-top: 4vh
+
+
+@media (max-width: 850px)
+    /* Aqui cambio las vistas de escritorio por las de movil */
+    .header-principal
+        display: none
+    
+    .main-principal
+        display: none
+
+    .footer-principal
+        display: none
+
+
+    .header-mobile
+        background-color:$primary
+        display: flex
+        flex-flow: row wrap
+        justify-content: center
+        align-content: center
+        height: 10vh
+    
+    .header-mobile-logo
+        min-width: 8vw
+        min-height: 8vw
+    
+    .header-mobile-titulo
+        font-weight: regular
+        font-size: 2em
+        color: white
+        padding-top: 1.5vh
+        padding-left: 6vw
+    
+    
+    .main-mobile
+        display: flex
+        flex-flow: column nowrap
+        justify-content: space-evenly
+        align-items: center
+        height: 80vh
+        background-image: url(./../img/mobile/bg.svg)
+        background-size: cover
+        background-color: $secondary
+
+    .main-mobile-p
+        font-size: 13vw
+        text-align: center
+
+    .main-mobile-a
+        text-align: center
+        color: $green
+        background-color: $primary
+        height: 6vh
+        width: 40vw
+        font-size: 1.5rem
+        border-radius: 11vh
+        padding-top: 2vw
+        margin-top: 5vw
+
+    .main-mobile-redes
+        display: flex
+        gap: 6vw
+        padding-top: 14vw
+
+    .footer-mobile
+        height: 10vh
+        background-color: #585f74
+        flex-flow: row
+        justify-content: center
+        align-items: center
+        display: flex
+    
+    .footer-mobile-nav-ul
+        display: flex
+        gap: 12vw

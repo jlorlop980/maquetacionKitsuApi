@@ -2,10 +2,13 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="stylesheet" href="./assets/sass/style.sass" />
     <title>Kitsu Api</title>
 </head>
 <body>
+
+    <!--Header desktop-->
     <header class="header-principal">
         <img src="./assets/img/logo.svg" class="header-principal-logo">
         <a href="./index.html" class="header-principal-titulo">KITSU API</a>
@@ -17,6 +20,13 @@
         </nav>
     </header>
 
+    <!--Header mobile-->
+    <header class="header-mobile">
+        <img src="./assets/img/mobile/logo.svg" class="header-mobile-logo">
+        <a href="./index.html" class="header-mobile-titulo">KITSU API</a>
+    </header>
+
+    <!--Main desktop-->
     <main class="main-principal">
         <section class="main-principal-section">
             <h1 class="main-principal-section-h1">Mantente al dia con todo el manga y anime</h1>
@@ -24,7 +34,20 @@
         </section>
     </main>
 
-    <footer class="footer-principal">
+    <!--Main mobile-->
+    <main class="main-mobile">
+        <p class="main-mobile-p">Mantente al dia con todo el manga y anime</p>
+        <a href="./listado.html" class="main-mobile-a">Vamos!</a>
+        <ul class="main-mobile-redes">
+            <li><a href="https://kitsu.io/explore/anime"><img src="./assets/img/mobile/Twitter.svg" alt="Twitter" class="main-mobile-redes-img"></a></li>
+            <li><a href="https://kitsu.io/explore/anime"><img src="./assets/img/mobile/Facebook.svg" alt="Facebook" class="main-mobile-redes-img"></a></li>
+            <li><a href="https://kitsu.io/explore/anime"><img src="./assets/img/mobile/Instagram.svg" alt="Instagram" class="main-mobile-redes-img"></a></li>
+            <li><a href="https://kitsu.io/explore/anime"><img src="./assets/img/mobile/Reddit.svg" alt="Reddit" class="main-mobile-redes-img"></a></li>
+        </ul>
+    </main>
+
+    <!--Footer desktop-->
+    <footer class="footer-principal"> 
         <ul class="footer-principal-redes">
             <li><a href="https://kitsu.io/explore/anime"><img src="./assets/img/Twitter.svg" alt="Twitter" class="footer-principal-redes-img"></a></li>
             <li><a href="https://kitsu.io/explore/anime"><img src="./assets/img/Facebook.svg" alt="Facebook" class="footer-principal-redes-img"></a></li>
@@ -32,6 +55,18 @@
             <li><a href="https://kitsu.io/explore/anime"><img src="./assets/img/Reddit.svg" alt="Reddit" class="footer-principal-redes-img"></a></li>
         </ul>
         <a href="./contacto.html" class="footer-principal-contacto">Contacto</a>
+    </footer>
+
+    <!--Footer mobile-->
+    <footer class="footer-mobile">
+        <nav class="footer-mobile-nav">
+            <ul class="footer-mobile-nav-ul">
+                <li><a class="footer-mobile-nav-a" href="./index.html"><img src="./assets/img/mobile/RHome.svg"></a></li>
+                <li><a class="footer-mobile-nav-a" href="./login.html"><img src="./assets/img/mobile/User.svg"></a></li>
+                <li><a class="footer-mobile-nav-a" href="./listado.html"><img src="./assets/img/mobile/List.svg"></a></li>
+                <li><a class="footer-mobile-nav-a" href="./contacto.html"><img src="./assets/img/mobile/Contacto.svg"></a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>
