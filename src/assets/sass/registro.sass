@@ -5,9 +5,19 @@ $green: #7CCFB4
 
 *
     font-family:"Quicksand"
-    margin:0
-    padding:0
+    margin: 0
+    padding: 0
     box-sizing: border-box
+
+.header-mobile
+    display: none
+
+.main-mobile
+    display: none
+
+.footer-mobile
+    display: none
+
 
 .header-principal
     background-color:$primary
@@ -68,7 +78,7 @@ a
     gap: 15vh
     background-color: $primary
     width: 35vw
-    height: 45vh
+    height: 50vh
     
 .main-principal-section-form
     color: white
@@ -93,6 +103,7 @@ a
     color: white
     background: $primary
     text-align: center
+    align-self: center
     
 
 .main-principal-section-form-label
@@ -136,3 +147,74 @@ a
     color: white
     padding-right: 2vw
     padding-top: 4vh
+
+
+
+@media (max-width: 850px)
+    /* Aqui cambio las vistas de escritorio por las de movil */
+    .header-principal
+        display: none
+   
+
+    .footer-principal
+        display: none
+
+    .header-mobile
+        background-color:$primary
+        display: flex
+        flex-flow: row wrap
+        justify-content: center
+        align-content: center
+        height: 10vh
+    
+    .header-mobile-logo
+        min-width: 8vw
+        min-height: 8vw
+    
+    .header-mobile-titulo
+        font-weight: regular
+        font-size: 2em
+        color: white
+        padding-top: 1.5vh
+        padding-left: 6vw
+
+    .main-principal-section
+        width: 85vw
+        height: fit-content
+
+    .main-principal-section-form
+        color: #fff
+        text-align: center
+        flex-flow: column nowrap
+        align-content: center
+        gap: 3vh
+        display: flex
+        width: 85vw
+
+    .main-principal-section-form-label
+        font-size: 24px
+        padding-top: 2vh
+
+    .main-principal-section-a
+        text-align: center
+        color: $green
+        background-color: $primary
+        height: 6vh
+        width: 40vw
+        font-size: 1.5rem
+        border-radius: 11vh
+        padding-top: 2vw
+        margin-top: 5vw
+
+
+    .footer-mobile
+        height: 10vh
+        background-color: #585f74
+        flex-flow: row
+        justify-content: center
+        align-items: center
+        display: flex
+    
+    .footer-mobile-nav-ul
+        display: flex
+        gap: 12vw
