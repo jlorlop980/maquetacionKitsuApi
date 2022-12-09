@@ -6,6 +6,10 @@
   font-family: Quicksand;
 }
 
+.header-mobile, .main-mobile, .footer-mobile {
+  display: none;
+}
+
 .header-principal {
   height: 10vh;
   background-color: #585f74;
@@ -78,8 +82,9 @@ a {
   height: 45vh;
   text-align: center;
   flex-flow: column wrap;
-  align-content: center;
+  place-content: center;
   gap: 4vh;
+  padding-bottom: 5vw;
   display: flex;
 }
 
@@ -91,11 +96,12 @@ a {
   border: 0;
   border-bottom: 1px solid #000;
   outline: 5px;
+  align-self: center;
   font-size: 1.3rem;
 }
 
 .main-principal-section-form-label {
-  padding-top: 4vh;
+  padding-top: 2vh;
   font-size: 2rem;
 }
 
@@ -136,6 +142,80 @@ a {
   color: #fff;
   padding-top: 4vh;
   padding-right: 2vw;
+}
+
+@media (max-width: 850px) {
+  .header-principal, .footer-principal {
+    display: none;
+  }
+
+  .header-mobile {
+    height: 10vh;
+    background-color: #585f74;
+    flex-flow: wrap;
+    place-content: center;
+    display: flex;
+  }
+
+  .header-mobile-logo {
+    min-width: 8vw;
+    min-height: 8vw;
+  }
+
+  .header-mobile-titulo {
+    font-weight: regular;
+    color: #fff;
+    padding-top: 1.5vh;
+    padding-left: 6vw;
+    font-size: 2em;
+  }
+
+  .main-principal-section {
+    width: 85vw;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .main-principal-section-form {
+    color: #fff;
+    text-align: center;
+    width: 85vw;
+    flex-flow: column;
+    align-content: center;
+    gap: 6vh;
+    display: flex;
+  }
+
+  .main-principal-section-form-label {
+    padding-top: 2vh;
+    font-size: 24px;
+  }
+
+  .main-principal-section-a {
+    text-align: center;
+    color: #7ccfb4;
+    height: 6vh;
+    width: 40vw;
+    background-color: #585f74;
+    border-radius: 11vh;
+    margin-top: 5vw;
+    padding-top: 2vw;
+    font-size: 1.5rem;
+  }
+
+  .footer-mobile {
+    height: 10vh;
+    background-color: #585f74;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .footer-mobile-nav-ul {
+    gap: 12vw;
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=login.93cc8c05.css.map */
