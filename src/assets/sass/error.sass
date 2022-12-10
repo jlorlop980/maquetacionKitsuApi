@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap')
+$primary: #585F74
+$secondary: #BCD4DE
+$green: #7CCFB4
+
+*
+    font-family:"Quicksand"
+    margin:0
+    padding:0
+    box-sizing: border-box
+
+.header-mobile
+    display: none
+
+
+
+.footer-mobile
+    display: none
+
+.header-principal
+    background-color:$primary
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+    height: 10vh
+    align-items: center
+
+.header-principal-titulo
+    font-weight: regular
+    font-size: 3em
+    color: white
+    padding-top: 1.5vh
+    padding-left: 6vw
+
+
+.header-principal-logo
+    padding-left: 2vw
+    padding-top: 0.5vh
+    padding-bottom: 0.5vh
+    max-width: 10vw
+    max-height: 10vh
+
+
+.header-principal-nav
+    color: white
+    padding-right: 1.5vw
+
+
+.header-principal-nav-img
+    padding-left: 0.5vw
+    
+.header-principal-nav-a
+    color: white
+
+ul
+    display: flex
+    gap: 1vw
+    list-style-type: none
+
+a
+    text-decoration: none
+
+
+.main-principal
+    height: 80vh
+    display: flex
+    flex-flow: column nowrap
+    justify-content: flex-end
+    align-items: center
+    gap: 10vw
+    background-image: url(./../img/fondopunpun404.png)
+    background-color: #bcd4de
+    background-size: cover
+
+
+.main-principal-section
+    display: flex
+    flex-flow: row nowrap
+    gap: 5vw
+
+.main-principal-p
+    font-size: 2vw
+    padding-bottom: 20vh
+    text-align: center
+    padding-left: 10vw
+    padding-right: 10vw
+
+.main-principal-section-div
+    display: inline-block
+    background: linear-gradient(136deg,#585f74,hwb(198deg 62% 21%))
+    height: 20vw
+    width: 20vw
+    font-size: 16vw
+    animation: skew 3s infinite
+    transform: skew(20deg)
+    animation-direction: alternate
+    opacity: .7
+    color: #7CCFB4
+    text-align: center
+
+
+@keyframes skew 
+    0% 
+        transform: skew(20deg, 20deg)
+    
+    100% 
+        transform: skew(-20deg, -20deg)
+
+
+
+
+.footer-principal
+    height: 10vh
+    background-color: $primary
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+
+.footer-principal-redes
+    display: flex
+    flex-flow: row wrap
+    gap: 0.5vw
+    padding-left: 2vw
+    padding-top: 3vh
+
+.footer-principal-redes-img
+    max-width: 3vw
+    max-height: 3vw
+
+.footer-principal-contacto
+    color: white
+    padding-right: 2vw
+    padding-top: 4vh
+
+
+@media (max-width: 850px)
+    /* Aqui cambio las vistas de escritorio por las de movil */
+    .header-principal
+        display: none
+
+
+    .footer-principal
+        display: none
+
+
+    .header-mobile
+        background-color:$primary
+        display: flex
+        flex-flow: row wrap
+        justify-content: center
+        align-content: center
+        height: 10vh
+    
+    .header-mobile-logo
+        min-width: 8vw
+        min-height: 8vw
+    
+    .header-mobile-titulo
+        font-weight: regular
+        font-size: 2em
+        color: white
+        padding-top: 1.5vh
+        padding-left: 6vw
+    
+    .main-principal
+        height: 80vh
+        
+        flex-flow: column
+        justify-content: flex-end
+        align-items: center
+        gap: 20vh
+        display: flex
+        background-image: url(./../img/mobile/bg4.png)
+        background-color: #bcd4de
+        background-size: cover
+
+    .main-principal-p
+        padding-bottom: 20vh
+        font-size: 2vh
+
+    
+    .main-mobile
+        height: 80vh
+        background-color: $secondary
+
+
+
+    .footer-mobile
+        height: 10vh
+        background-color: #585f74
+        flex-flow: row
+        justify-content: center
+        align-items: center
+        display: flex
+    
+    .footer-mobile-nav-ul
+        display: flex
+        gap: 12vw
