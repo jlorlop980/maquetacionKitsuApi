@@ -15,6 +15,7 @@
   background-color: #585f74;
   flex-flow: wrap;
   justify-content: space-between;
+  align-items: center;
   display: flex;
 }
 
@@ -36,7 +37,6 @@
 
 .header-principal-nav {
   color: #fff;
-  padding-top: 3.5vh;
   padding-right: 1.5vw;
 }
 
@@ -70,30 +70,21 @@ a {
   display: flex;
 }
 
-.main-principal-section {
-  flex-flow: column wrap;
-  gap: 5vh;
-  padding-top: 10vh;
-  padding-left: 15vw;
-  padding-right: 15vw;
-  display: flex;
-}
-
-.main-principal-section-h1 {
+.main-principal-h1 {
   text-align: center;
-  font-size: 12vh;
+  font-size: 8vw;
   font-weight: normal;
 }
 
-.main-principal-section-a {
+.main-principal-a {
   text-align: center;
   color: #7ccfb4;
   height: 6vh;
-  width: 10vw;
+  width: 15vw;
   background-color: #585f74;
   border-radius: 11vh;
-  align-self: center;
-  font-size: 1.5rem;
+  padding-top: 1vw;
+  font-size: 2vw;
 }
 
 .footer-principal {

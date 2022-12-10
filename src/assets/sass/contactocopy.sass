@@ -9,6 +9,17 @@ $green: #7CCFB4
     padding:0
     box-sizing: border-box
 
+
+.header-mobile
+    display: none
+
+.main-mobile
+    display: none
+
+.footer-mobile
+    display: none
+
+
 .header-principal
     background-color:$primary
     display: flex
@@ -75,7 +86,7 @@ a
 .main-principal-section-form
     color: white
     display: flex
-    flex-flow: column wrap
+    flex-flow: column nowrap
     text-align: left
     gap: 3vh
     height: 40vh
@@ -136,7 +147,7 @@ a
 .footer-principal-redes
     display: flex
     flex-flow: row wrap
-    gap: 0.5vw
+    gap: 1vw
     padding-left: 2vw
     padding-top: 3vh
 
@@ -148,3 +159,87 @@ a
     color: white
     padding-right: 2vw
     padding-top: 4vh
+
+
+
+@media (max-width: 850px)
+    /* Aqui cambio las vistas de escritorio por las de movil */
+    .header-principal
+        display: none
+    
+
+    .footer-principal
+        display: none
+
+
+    .header-mobile
+        background-color:$primary
+        display: flex
+        flex-flow: row wrap
+        justify-content: center
+        align-content: center
+        height: 10vh
+    
+    .header-mobile-logo
+        min-width: 8vw
+        min-height: 8vw
+    
+    .header-mobile-titulo
+        font-weight: regular
+        font-size: 2em
+        color: white
+        padding-top: 1.5vh
+        padding-left: 6vw
+
+    .main-principal 
+        height: 80vh
+        background-color: $secondary
+        flex-flow: column nowrap
+        justify-content: center
+        align-items: center
+        gap: 3vh
+        display: flex
+        overflow: scroll
+        padding-bottom: 15px
+
+    .main-principal-section
+        width: 85vw
+        height: fit-content
+        color: #fff
+        flex-flow: column nowrap
+        justify-content: space-around
+        display: flex
+        margin-top: 21vh
+        gap: 5vw
+        padding-bottom: 2vh
+
+
+    .main-principal-section-form
+        text-align: center
+        align-content: center
+
+    .main-principal-section-form-input
+        width: 60%
+        align-self: center
+
+    .main-principal-section-textarea
+        margin-botton: 1vh
+
+    .main-principal-section-a
+        height: 6vh
+        width: 35vw
+        font-size: 1.5rem
+        padding-top: 1vw
+        padding-bottom: 3vh
+        
+    .footer-mobile
+        height: 10vh
+        background-color: #585f74
+        flex-flow: row
+        justify-content: center
+        align-items: center
+        display: flex
+    
+    .footer-mobile-nav-ul
+        display: flex
+        gap: 12vw
