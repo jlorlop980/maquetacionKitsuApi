@@ -63,6 +63,11 @@ a {
   background-color: #bcd4de;
   background-image: url("bgOpacity.afaeaf0a.png");
   background-size: cover;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  display: flex;
 }
 
 .main-principal-section {
