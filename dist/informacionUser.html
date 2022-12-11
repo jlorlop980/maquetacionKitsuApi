@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="stylesheet" href="/contacto.ba547668.css">
+    <link rel="stylesheet" href="/informacionUser.34e248d1.css">
     <title>Kitsu Api</title>
 </head>
-<body>
+<body class="dark">
+
     <!--Header desktop-->
     <header class="header-principal">
         <img src="/logo.e1e57082.svg" class="header-principal-logo">
@@ -14,7 +15,7 @@
         <nav class="header-principal-nav">
             <ul>
                 <li><a class="header-principal-nav-a" href="/registro.html">usuario<img src="/User.de3447c0.svg" alt="usuario" class="header-principal-nav-img"></a></li>
-                <li><a class="header-principal-nav-a" href="/informacionUser.html">ajustes<img src="/Settings.b3976076.svg" alt="ajustes" class="header-principal-nav-img"></a></li>
+                <li><a class="header-principal-nav-a" href="#">ajustes<img src="/Settings.b3976076.svg" alt="ajustes" class="header-principal-nav-img"></a></li>
             </ul>
         </nav>
     </header>
@@ -25,27 +26,42 @@
         <a href="/index.html" class="header-mobile-titulo">KITSU API</a>
     </header>
 
+
     <!--Main-->
     <main class="main-principal">
         <section class="main-principal-section">
-            <form id="contacto" action="./assets/js/index.js" class="main-principal-section-form">  
-                <label for="nomb" class="main-principal-section-form-label">Nombre</label>
-                <input type="text" id="nomb" class="main-principal-section-form-input">
-                <label for="appe" class="main-principal-section-form-label">Apellido</label>
-                <input type="text" id="appe" class="main-principal-section-form-input">
-                <label for="mail" class="main-principal-section-form-label">Email</label>
-                <input type="email" id="mail" class="main-principal-section-form-input">     
+            <form class="main-principal-section-form">
+                <label class="main-principal-section-textarea-label">
+                    Nombre
+                    <input type="text" class="main-principal-section-form-input" value="Jose Antonio">
+                </label>
+                <label class="main-principal-section-textarea-label">
+                    Apellidos
+                    <input type="text" class="main-principal-section-form-input" value="Lorenzo López">
+                </label>
+                <label class="main-principal-section-textarea-label">
+                    Fecha nacimientp
+                    <input type="date" class="main-principal-section-form-input" value="2001-02-03">
+                </label>
+                <label class="main-principal-section-textarea-label">
+                    Preferencia
+                    <select class="main-principal-section-form-input">
+                        <option value="Manga">Manga</option>
+                        <option value="Anime">Anime</option>
+                    </select>
+                </label>
+                <label class="main-principal-section-textarea-label">
+                    Manga/Anime favorito
+                    <input type="text" class="main-principal-section-form-input" value="Itai no Itai no, Tonde Yuke">
+                </label>
             </form>
-            <div class="main-principal-section-textarea">
-                <label for="mensa" class="main-principal-section-textarea-label">Mensaje</label>
-                <textarea form="contacto" id="mensa" class="main-principal-section-form-input main-pricipal-section-form-mensaje"></textarea>
-            </div>        
         </section>
-        <a href="/listado.html" class="main-principal-section-a">Enviar</a>
     </main>
 
+
+
     <!--Footer desktop-->
-    <footer class="footer-principal">
+    <footer class="footer-principal"> 
         <ul class="footer-principal-redes">
             <li><a href="https://kitsu.io/explore/anime"><img src="/Twitter.67b17bee.svg" alt="Twitter" class="footer-principal-redes-img"></a></li>
             <li><a href="https://kitsu.io/explore/anime"><img src="/Facebook.39257150.svg" alt="Facebook" class="footer-principal-redes-img"></a></li>
@@ -59,12 +75,12 @@
     <footer class="footer-mobile">
         <nav class="footer-mobile-nav">
             <ul class="footer-mobile-nav-ul">
-                <li><a class="footer-mobile-nav-a" href="/index.html"><img src="/Home.24d3cb50.svg"></a></li>
+                <li><a class="footer-mobile-nav-a" href="/index.html"><img src="/RHome.581ba767.svg"></a></li>
                 <li><a class="footer-mobile-nav-a" href="/login.html"><img src="/User.39a24cd3.svg"></a></li>
                 <li><a class="footer-mobile-nav-a" href="/listado.html"><img src="/List.b88f082c.svg"></a></li>
-                <li><a class="footer-mobile-nav-a" href="/contacto.html"><img src="/RContacto.6465cdbd.svg"></a></li>
+                <li><a class="footer-mobile-nav-a" href="/contacto.html"><img src="/Contacto.a2b07b0b.svg"></a></li>
             </ul>
         </nav>
     </footer>
-<script src="/contacto.7ee82020.js"></script></body>
+<script src="/informacionUser.14ddeae5.js"></script></body>
 </html>

@@ -3,14 +3,17 @@
 @use 'footerDesktop' as *
 
 
+
 .main-principal
     height: 80vh
+    background-image: url(./../img/bgOpacity.png)
+    background-size: cover
     background-color: $secondary
     display: flex
-    flex-flow: column wrap
-    gap: 5vh
+    flex-flow: column nowrap
     justify-content: center
     align-items: center
+    gap: 5vw
 
 .main-principal-section
     display: flex
@@ -18,10 +21,20 @@
     border-radius: 20px
     background-color: $primary
     width: 60vw
-    height: 50vh
+    height: 60vh
     justify-content: space-around
     color: white
-    
+    width: fit-content
+
+.main-principal-section-textarea-label
+    text-align: center
+    color: #7ccfb4
+    padding-top: 2vh
+    font-size: 1.3rem
+    display: flex
+    flex-flow: column nowrap
+
+
 .main-principal-section-form
     color: white
     display: flex
@@ -29,17 +42,8 @@
     text-align: left
     gap: 3vh
     height: 40vh
-
-.main-principal-section-textarea
-    display: flex
-    flex-flow: column wrap
-    gap: 4vh
-    height: 40vh
-
-.main-principal-section-textarea-label
-    font-size: 1.3rem
-    padding-top: 2vh
-    text-align: center
+    padding-left: 10vw
+    padding-right: 10vw
 
 .main-principal-section-form-input
 
@@ -49,31 +53,6 @@
     font-size: 1.3rem
     color: white
     background: $primary
-    /*text-align: center*/
-
-.main-pricipal-section-form-mensaje
-    width: 25vw 
-    height: 30vh
-    border: 1px solid #000000
-    resize: none       
-
-.main-principal-section-form-label
-    font-size: 1.3rem
-    padding-top: 2vh
-
-
-.main-principal-section-a
-   align-self: center
-   text-align: center
-   padding-top: 1vh
-   color: $green
-   background-color: $primary
-   height: 6vh
-   width: 10vw
-   font-size: 1.5rem
-   border-radius: 11vh
-
-
 
 
 @media (max-width: 850px)
@@ -81,6 +60,7 @@
     .header-principal
         display: none
     
+
 
     .footer-principal
         display: none
@@ -104,48 +84,38 @@
         color: white
         padding-top: 1.5vh
         padding-left: 6vw
-
-    .main-principal 
-        height: 80vh
-        background-color: $secondary
+    
+    
+    .main-mobile
+        display: flex
         flex-flow: column nowrap
-        justify-content: center
+        justify-content: space-evenly
         align-items: center
-        gap: 3vh
-        display: flex
-        overflow: scroll
-        padding-bottom: 15px
+        height: 80vh
+        background-image: url(./../img/mobile/bg.svg)
+        background-size: cover
+        background-color: $secondary
 
-    .main-principal-section
-        width: 85vw
-        height: fit-content
-        color: #fff
-        flex-flow: column nowrap
-        justify-content: space-around
-        display: flex
-        margin-top: 21vh
-        gap: 5vw
-        padding-bottom: 2vh
-
-
-    .main-principal-section-form
+    .main-mobile-p
+        font-size: 13vw
         text-align: center
-        align-content: center
 
-    .main-principal-section-form-input
-        width: 60%
-        align-self: center
-
-    .main-principal-section-textarea
-        margin-botton: 1vh
-
-    .main-principal-section-a
+    .main-mobile-a
+        text-align: center
+        color: $green
+        background-color: $primary
         height: 6vh
-        width: 35vw
+        width: 40vw
         font-size: 1.5rem
-        padding-top: 1vw
-        padding-bottom: 3vh
-        
+        border-radius: 11vh
+        padding-top: 2vw
+        margin-top: 5vw
+
+    .main-mobile-redes
+        display: flex
+        gap: 6vw
+        padding-top: 14vw
+
     .footer-mobile
         height: 10vh
         background-color: #585f74

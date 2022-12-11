@@ -88,59 +88,55 @@ a {
 .main-principal {
   height: 80vh;
   background-color: #bcd4de;
-  flex-flow: column wrap;
+  background-image: url("bgOpacity.afaeaf0a.png");
+  background-size: cover;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
-  gap: 5vh;
+  gap: 5vw;
   display: flex;
 }
 
 .main-principal-section {
-  width: 35vw;
-  height: 50vh;
+  width: 60vw;
+  height: 60vh;
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
   background-color: #585f74;
   border-radius: 20px;
-  gap: 15vh;
+  flex-flow: row;
+  justify-content: space-around;
+  display: flex;
+}
+
+.main-principal-section-textarea-label {
+  text-align: center;
+  color: #7ccfb4;
+  flex-flow: column;
+  padding-top: 2vh;
+  font-size: 1.3rem;
+  display: flex;
 }
 
 .main-principal-section-form {
   color: #fff;
-  width: 35vw;
-  height: 45vh;
-  text-align: center;
-  flex-flow: column wrap;
-  align-content: center;
+  text-align: left;
+  height: 40vh;
+  flex-flow: column;
   gap: 3vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
   display: flex;
 }
 
 .main-principal-section-form-input {
-  width: 40%;
   color: #fff;
-  text-align: center;
   background: #585f74;
   border: 0;
   border-bottom: 1px solid #000;
   outline: 5px;
-  align-self: center;
   font-size: 1.3rem;
-}
-
-.main-principal-section-form-label {
-  padding-top: 2vh;
-  font-size: 2rem;
-}
-
-.main-principal-section-a {
-  text-align: center;
-  color: #7ccfb4;
-  height: 6vh;
-  width: 10vw;
-  background-color: #585f74;
-  border-radius: 11vh;
-  align-self: center;
-  padding-top: 1vh;
-  font-size: 1.5rem;
 }
 
 @media (max-width: 850px) {
@@ -169,28 +165,23 @@ a {
     font-size: 2em;
   }
 
-  .main-principal-section {
-    width: 85vw;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
-  .main-principal-section-form {
-    color: #fff;
-    text-align: center;
-    width: 85vw;
+  .main-mobile {
+    height: 80vh;
+    background-color: #bcd4de;
+    background-image: url("bg.611d23e8.svg");
+    background-size: cover;
     flex-flow: column;
-    align-content: center;
-    gap: 3vh;
+    justify-content: space-evenly;
+    align-items: center;
     display: flex;
   }
 
-  .main-principal-section-form-label {
-    padding-top: 2vh;
-    font-size: 24px;
+  .main-mobile-p {
+    text-align: center;
+    font-size: 13vw;
   }
 
-  .main-principal-section-a {
+  .main-mobile-a {
     text-align: center;
     color: #7ccfb4;
     height: 6vh;
@@ -200,6 +191,12 @@ a {
     margin-top: 5vw;
     padding-top: 2vw;
     font-size: 1.5rem;
+  }
+
+  .main-mobile-redes {
+    gap: 6vw;
+    padding-top: 14vw;
+    display: flex;
   }
 
   .footer-mobile {
@@ -217,4 +214,4 @@ a {
   }
 }
 
-/*# sourceMappingURL=registro.2595a311.css.map */
+/*# sourceMappingURL=informacionUser.34e248d1.css.map */
