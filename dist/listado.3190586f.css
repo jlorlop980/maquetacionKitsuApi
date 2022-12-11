@@ -267,7 +267,7 @@ hr {
 
   .main-mobile-section-anime-group {
     flex-flow: row;
-    gap: 2vw;
+    gap: 10vw;
     display: flex;
   }
 
