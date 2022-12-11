@@ -115,7 +115,7 @@ a {
   background-color: #fff;
   border-radius: 100px;
   position: absolute;
-  top: 20vw;
+  top: 10vw;
   right: 10vw;
 }
 
@@ -155,7 +155,6 @@ a {
   }
 
   .header-mobile-titulo {
-    font-weight: regular;
     color: #fff;
     padding-top: 1.5vh;
     padding-left: 6vw;
