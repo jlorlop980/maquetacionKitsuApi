@@ -6,6 +6,10 @@
   font-family: Quicksand;
 }
 
+.header-mobile, .main-mobile, .footer-mobile {
+  display: none;
+}
+
 .header-principal {
   height: 10vh;
   background-color: #585f74;
@@ -163,6 +167,136 @@ hr {
   color: #fff;
   padding-top: 4vh;
   padding-right: 2vw;
+}
+
+@media (max-width: 850px) {
+  .header-principal, .main-principal, .footer-principal {
+    display: none;
+  }
+
+  .activado {
+    display: inline;
+  }
+
+  .desactivado {
+    display: none;
+  }
+
+  .switch {
+    width: 60px;
+    height: 34px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .slider {
+    cursor: pointer;
+    background-color: #ccc;
+    transition: all .4s;
+    position: absolute;
+    inset: 0;
+  }
+
+  .slider:before {
+    content: "";
+    height: 26px;
+    width: 26px;
+    background-color: #fff;
+    transition: all .4s;
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .header-mobile {
+    height: 10vh;
+    background-color: #585f74;
+    flex-flow: wrap;
+    place-content: center;
+    display: flex;
+  }
+
+  .header-mobile-logo {
+    min-width: 8vw;
+    min-height: 8vw;
+  }
+
+  .header-mobile-titulo {
+    font-weight: regular;
+    color: #fff;
+    padding-top: 1.5vh;
+    padding-left: 6vw;
+    font-size: 2em;
+  }
+
+  .main-mobile-header {
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    display: flex;
+  }
+
+  .main-mobile {
+    height: 80vh;
+    background-color: #bcd4de;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5vw;
+    display: flex;
+    overflow: scroll;
+  }
+
+  .main-mobile-section-anime-group {
+    flex-flow: row;
+    gap: 2vw;
+    display: flex;
+  }
+
+  .main-mobile-section-anime {
+    flex-flow: column;
+    gap: 7vw;
+    display: flex;
+  }
+
+  .main-mobile-section-anime-group-item {
+    flex-flow: column;
+    align-items: center;
+    gap: 5vw;
+    display: flex;
+  }
+
+  .footer-mobile {
+    height: 10vh;
+    background-color: #585f74;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .footer-mobile-nav-ul {
+    gap: 12vw;
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=listado.3190586f.css.map */

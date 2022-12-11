@@ -64,9 +64,9 @@ a {
   background-image: url("fondopunpun404.660eda46.png");
   background-size: cover;
   flex-flow: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  gap: 10vw;
+  gap: 8vw;
   display: flex;
 }
 
@@ -78,7 +78,6 @@ a {
 
 .main-principal-p {
   text-align: center;
-  padding-bottom: 20vh;
   padding-left: 10vw;
   padding-right: 10vw;
   font-size: 2vw;

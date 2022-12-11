@@ -2,10 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="stylesheet" href="/listado.3190586f.css">
+    <script src="/listado.bda4afae.js" defer=""></script>
     <title>Kitsu Api</title>
 </head>
 <body>
+
+    <!--Header desktop-->
     <header class="header-principal">
         <img src="/logo.e1e57082.svg" class="header-principal-logo">
         <a href="/index.html" class="header-principal-titulo">KITSU API</a>
@@ -17,8 +21,14 @@
         </nav>
     </header>
 
-    <main class="main-principal"> 
+    <!--Header mobile-->
+    <header class="header-mobile">
+        <img src="/logo.197ea174.svg" class="header-mobile-logo">
+        <a href="/index.html" class="header-mobile-titulo">KITSU API</a>
+    </header>
 
+    <!--Main desktop-->
+    <main class="main-principal"> 
         <section class="main-header">
             <p class="main-barrasup-titulo">Trending</p> 
             <input id="busqueda" type="text" placeholder="Búsqueda">
@@ -109,8 +119,94 @@
 
         </section>
     </main>
-   
+   <!--Main mobile-->
+    <main class="main-mobile">
+        <header class="main-mobile-header">
+            <img id="RA" class="activado" src="/Ranime.6037965c.svg" alt="">
+            <img id="A" class="desactivado" src="/anime.23a18e2a.svg" alt="">
+            <label class="switch">
+                <input id="sld" type="checkbox" onclick="cambio()">
+                <span class="slider round"></span>
+            </label>
+            <img id="M" class="activado" src="/manga.e9140ae2.svg" alt="">
+            <img id="RM" class="desactivado" src="/Rmanga.cd6ef5b0.svg" alt="">
+        </header>
 
+        <section class="main-mobile-section-anime activado">
+
+            <div class="main-mobile-section-anime-group">
+
+                <div class="main-mobile-section-anime-group-item">
+                    <img src="/cboymobile.a0fa8296.svg" alt="">
+                    <p>Cowboy</p>
+                </div>
+
+                <div class="main-mobile-section-anime-group-item">
+                    <img src="/cmanmobile.527726ac.svg" alt="">
+                    <p>Chainsaw man</p>
+                </div>
+            </div>
+
+
+            <div class="main-mobile-section-anime-group">
+
+                <div class="main-mobile-section-anime-group-item">
+                    <img src="/spfmobile.ba79f97d.svg" alt="">
+                    <p>SpyxFamily</p>
+                </div>
+
+                <div class="main-mobile-section-anime-group-item">
+                    <img src="/blmobile.dfec3685.svg" alt="">
+                    <p>Blue Lock</p>
+                </div>
+            </div>
+
+
+            <div class="main-mobile-section-anime-group">
+
+                <div class="main-mobile-section-anime-group-item">
+                    <img src="/fumemobile.76b91999.svg" alt="">
+                    <p>Fumetsu</p>
+                </div>
+
+                <div class="main-mobile-section-anime-group-item">
+                    <img src="/evamobile.ae09016b.svg" alt="">
+                    <p>Evangelion</p>
+                </div>
+            </div>
+
+            <div class="main-mobile-section-anime-group">
+
+                <div class="main-mobile-section-anime-group-item">
+                    <img src="/vinmobile.ff18ce94.svg" alt="">
+                    <p>Vinland saga</p>
+                </div>
+
+                <div class="main-mobile-section-anime-group-item">
+                    <img src="/housekimobile.76cb6932.svg" alt="">
+                    <p>houseki no kuni</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-mobile-section-manga desactivado">
+            <div>
+                <div></div>
+            </div>
+            <div>
+                <div></div>
+            </div>
+            <div>
+                <div></div>
+            </div>
+            <div>
+                <div></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--Footer desktop-->
     <footer class="footer-principal">
         <ul class="footer-principal-redes">
             <li><a href="https://kitsu.io/explore/anime"><img src="/Twitter.67b17bee.svg" alt="Twitter" class="footer-principal-redes-img"></a></li>
@@ -119,6 +215,18 @@
             <li><a href="https://kitsu.io/explore/anime"><img src="/Reddit.22a25929.svg" alt="Reddit" class="footer-principal-redes-img"></a></li>
         </ul>
         <a href="/contacto.html" class="footer-principal-contacto">Contacto</a>
+    </footer>
+
+    <!--Footer mobile-->
+    <footer class="footer-mobile">
+        <nav class="footer-mobile-nav">
+            <ul class="footer-mobile-nav-ul">
+                <li><a class="footer-mobile-nav-a" href="/index.html"><img src="/Home.24d3cb50.svg"></a></li>
+                <li><a class="footer-mobile-nav-a" href="/login.html"><img src="/User.39a24cd3.svg"></a></li>
+                <li><a class="footer-mobile-nav-a" href="/listado.html"><img src="/RLista.ef8cad10.svg"></a></li>
+                <li><a class="footer-mobile-nav-a" href="/contacto.html"><img src="/Contacto.a2b07b0b.svg"></a></li>
+            </ul>
+        </nav>
     </footer>
 <script src="/listado.17738b35.js"></script></body>
 </html>

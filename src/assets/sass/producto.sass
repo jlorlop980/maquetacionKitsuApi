@@ -9,6 +9,15 @@ $green: #7CCFB4
     padding:0
     box-sizing: border-box
 
+.header-mobile
+    display: none
+
+.main-principal-section-img-mobile
+    display: none
+
+.footer-mobile
+    display: none
+
 .header-principal
     background-color:$primary
     display: flex
@@ -168,3 +177,97 @@ a
     color: white
     padding-right: 2vw
     padding-top: 4vh
+
+
+
+@media (max-width: 850px)
+    /* Aqui cambio las vistas de escritorio por las de movil */
+    .header-principal
+        display: none
+
+
+    .footer-principal
+        display: none
+
+    .back-anchor
+        display: none
+
+    .main-separados-datos
+        display: none
+
+    .header-mobile
+        background-color:$primary
+        display: flex
+        flex-flow: row wrap
+        justify-content: center
+        align-content: center
+        height: 10vh
+    
+    .header-mobile-logo
+        min-width: 8vw
+        min-height: 8vw
+    
+    .header-mobile-titulo
+        font-weight: regular
+        font-size: 2em
+        color: white
+        padding-top: 1.5vh
+        padding-left: 6vw
+    
+    
+    .main-principal
+        flex-flow: column nowrap
+        justify-content: flex-start
+        align-items: center
+        height: 80vh
+        background-color: $secondary
+        overflow: scroll
+        padding-bottom: 5vh
+
+    .titulo-romaji
+        color: white
+        font-size: 8vw
+
+    .titulo-japo
+        color: $green
+        font-size: 8vw
+        padding: 1vw
+
+
+
+    .main-principal-section-img
+        display: none
+    
+    .main-principal-section-img-mobile
+        display: block
+        width: 85vw
+        height: 50vw
+        max-height: 40vh
+        border-radius: 20px
+        padding-top: 5vw
+
+
+    .main-principal-section-datos-subdatos-resultados
+        font-size: 1.5rem
+
+    .main-principal-section-datos-subdatos-titulos
+        font-size: 1.5rem
+
+    .main-principal-section-datos
+        width: 90vw
+        gap: 5vw
+    
+    .main-principal-section-datos-subdatos
+        flex-flow: nowrap
+
+    .footer-mobile
+        height: 10vh
+        background-color: #585f74
+        flex-flow: row
+        justify-content: center
+        align-items: center
+        display: flex
+    
+    .footer-mobile-nav-ul
+        display: flex
+        gap: 12vw

@@ -6,6 +6,10 @@
   font-family: Quicksand;
 }
 
+.header-mobile, .main-principal-section-img-mobile, .footer-mobile {
+  display: none;
+}
+
 .header-principal {
   height: 10vh;
   background-color: #585f74;
@@ -171,6 +175,94 @@ a {
   color: #fff;
   padding-top: 4vh;
   padding-right: 2vw;
+}
+
+@media (max-width: 850px) {
+  .header-principal, .footer-principal, .back-anchor, .main-separados-datos {
+    display: none;
+  }
+
+  .header-mobile {
+    height: 10vh;
+    background-color: #585f74;
+    flex-flow: wrap;
+    place-content: center;
+    display: flex;
+  }
+
+  .header-mobile-logo {
+    min-width: 8vw;
+    min-height: 8vw;
+  }
+
+  .header-mobile-titulo {
+    font-weight: regular;
+    color: #fff;
+    padding-top: 1.5vh;
+    padding-left: 6vw;
+    font-size: 2em;
+  }
+
+  .main-principal {
+    height: 80vh;
+    background-color: #bcd4de;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 5vh;
+    overflow: scroll;
+  }
+
+  .titulo-romaji {
+    color: #fff;
+    font-size: 8vw;
+  }
+
+  .titulo-japo {
+    color: #7ccfb4;
+    padding: 1vw;
+    font-size: 8vw;
+  }
+
+  .main-principal-section-img {
+    display: none;
+  }
+
+  .main-principal-section-img-mobile {
+    width: 85vw;
+    height: 50vw;
+    max-height: 40vh;
+    border-radius: 20px;
+    padding-top: 5vw;
+    display: block;
+  }
+
+  .main-principal-section-datos-subdatos-resultados, .main-principal-section-datos-subdatos-titulos {
+    font-size: 1.5rem;
+  }
+
+  .main-principal-section-datos {
+    width: 90vw;
+    gap: 5vw;
+  }
+
+  .main-principal-section-datos-subdatos {
+    flex-flow: row;
+  }
+
+  .footer-mobile {
+    height: 10vh;
+    background-color: #585f74;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .footer-mobile-nav-ul {
+    gap: 12vw;
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=producto.0ab71113.css.map */
